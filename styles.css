@@ -1,0 +1,164 @@
+/* ======== ESTILOS GENERALES ======== */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-color: #fffaf5;
+  color: #333;
+}
+
+/* ======== ENCABEZADO ======== */
+header {
+  background: linear-gradient(135deg, #b23a48, #e07a5f);
+  color: #fff;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+header h1 {
+  font-size: 2.5em;
+  margin-bottom: 0.5rem;
+}
+
+header p {
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+/* ======== NAVEGACIÓN ======== */
+nav {
+  background: #f4f4f4;
+  padding: 12px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #8B0000;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #333;
+  text-decoration: underline;
+}
+
+/* ======== CONTENIDO PRINCIPAL ======== */
+main {
+  max-width: 1000px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+article {
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  transition: transform 0.2s ease-in-out;
+}
+
+article:hover {
+  transform: translateY(-4px);
+}
+
+article h2 {
+  color: #b23a48;
+  margin-bottom: 1rem;
+}
+
+article p {
+  font-size: 1.05em;
+  text-align: justify;
+}
+
+article ul {
+  margin-top: 15px;
+  padding-left: 20px;
+}
+
+article ul li {
+  margin-bottom: 8px;
+}
+/* ======== IMAGENES DE ENTRADA ======== */
+.entrada-img {
+  width: 80%;
+  height: auto;
+  border-radius: 10px;
+  margin: 0 auto 1rem;
+  display: block;
+  object-fit: cover;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+/* ======== PIE DE PÁGINA ======== */
+.footer-names {
+  text-align: center;
+  background: #8b0000;
+  color: white;
+  padding: 15px;
+  margin-top: 40px;
+  font-size: 0.9em;
+}
+
+/* ======== RESPONSIVO ======== */
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 1.8em;
+  }
+
+  nav ul li {
+    display: block;
+    margin: 10px 0;
+  }
+
+  article {
+    padding: 15px;
+  }
+
+/* ======== PIE DE PÁGINA ======== */
+.footer-links {
+  text-align: center;
+  background: #8b0000; /* mismo rojo oscuro que el header */
+  color: white;
+  padding: 25px 10px;
+  margin-top: 40px;
+  font-size: 0.95em;
+}
+
+.footer-names p {
+  font-weight: bold; /* resalta los nombres */
+  margin-bottom: 10px;
+}
+
+footer .footer-links p {
+  margin-bottom: 10px;
+}
+
+footer a {
+  color: #ffcccb; /* color claro que resalte sobre el rojo */
+  text-decoration: none;
+  margin: 0 6px;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+footer a:hover {
+  color: #fff; /* al pasar el mouse se pone blanco */
+  text-decoration: underline;
+}
+}
